@@ -84,3 +84,5 @@ for (subj in unique(combined_fin$SubjectID)){
 }
 
 colnames(new_fin) <- c(colnames(combined_fin[1:2]), paste0("Average_Of_",colnames(combined_fin)[3:dim(combined_fin)[2]]))
+
+write.table(new_fin,file="tidyData.txt")
