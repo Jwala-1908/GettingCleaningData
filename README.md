@@ -22,3 +22,7 @@ The R_script run_analysis.R performs the following:
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 	The new dataset is stored as 'new_fin'
 	
+Created 2 functions:
+	1) expandName:	fill in full forms as described in 2nd task
+	2) newGen:	to return each row of the new dataset required in task 5 by subsetting based on subject and activity and
+		   	then calculating mean.
